@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F1F1F1;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 10fr 4fr 2fr;
+}   
+.image{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    height: 200px;
+    width: 200px;
+}
+.logo h1{
+    padding-right: 950px;
+    width: 1560px;
+}
+.logo .person{
+    background-color: #ccc;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+   
+}
+h1{
+    padding: 64px;
+    font-size: 36px;
+}
+header{
+    padding: 18px;
+    display: grid;
+    justify-self: center;
+    
+}
+.tarefas{
+    display: flex;
+    padding: 64px;
+    width: 1500px;
+    flex-direction: column;
+    outline: none;
+    border: none;
+
+}
+.tarefas button{
+    padding: 8px;
+   
+    
+}
+.tarefas h1{
+    display: flex;
+    padding: 12px;
+}
+.tarefas p{
+    padding: 24px;
+    background-color: #C5C5C5;
+    width: 100%;
+    border-radius: 16px;
+    font-size: 18px;    
+    text-decoration: none;
+    box-shadow: none;
+}  
+.tarefas a{
+    text-decoration: none;
+    color: black;
+}     
+button{
+    width: 40%;
+    border-radius: 16px;
+    cursor: pointer;
+    border: none;
+}   
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #ccc inset !important;
+}
+.addtarefa{
+    background-color: #FFDB1D;
+    color: white;
+    height: 50px;
+    width: 200px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+
+}
+.logo .person:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,87 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+    font-family: "Khand", sans-serif;
+    font-size: large;
+  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+form {
+    width: 24rem;
+    
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #ccc inset !important;
+}
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #C5C5C5;
+    opacity: 60%;
+    color: black;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    background-color: #C5C5C5;
+
+}
+
+button {
+    cursor: pointer;
+    background-color: #FFDB1D;
+    color: #fff;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #FFDB1D;
+    border-color: #FFDB1D;
+}
+
+button:focus {
+    box-shadow: 0 0 3px 0 #FFDB1D;
+}
+.selecoes{
+    justify-content: space-between;
+    display: flex;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 450px;
+}
