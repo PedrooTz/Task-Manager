@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F1F1F1;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.logo img{
+    height: 180px;
+    width: 180px;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 60px;
+}
+
+.text{
+    font-family: 'Khand', sans-serif;
+    font-size: x-large;
+    font-weight: 700;
+    color: black;
+    inline-size: 420px;
+}
+
+.text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text p span {
+    color: #4200FF;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape img{
+    width: 70%;
+}
+
+@media(max-width:1024px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .logo img{
+        height: 140px;
+        width: 140px;
+    }
+
+    .text{
+        font-family: 'Khand', sans-serif;
+        font-size: medium;
+        font-weight: 700;
+        color: black;
+        inline-size: 420px;
+    }
+    
+    .rodape{
+        display: none;
+    }
+    
+}   

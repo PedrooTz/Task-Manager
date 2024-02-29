@@ -3,32 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../pagescss/inicial.css">
-    <link rel="icon" href="../img/logo_gerenciador_naty_pedro 2.png">
+    <link rel="stylesheet" href="../css/inicial.css">
+    <link rel="icon" href="../img/logo.png">
     <title>Home</title>
-<body>  
-    <header>
-    <div class="logo">
-        <img src="../img/logo_gerenciador_naty_pedro 2.png" alt="" class="logo" >
-        <h1>Página Inicial</h1>
-  
-        <a href="./cadastro.html"><img src="../img/Person.png" alt="" class="person"></a>
-       
-    </div>
-
-    <div class="tarefas">
-        <h2>Lista de Tarefas</h2>
-        <Button>
-            <a href="../pageshtml/tarefas.html"><p>Tarefas de Casa</p></a>
-        </Button>
-        <Button>
-            <p>Tarefas da Escola</p>
-        </Button>
-
-        <button class="addtarefa"> Adicionar Projeto</button>
-    </div>
-  
-
-</header>   
+<body>
+    <main>
+        <div class="cabecalho">
+            <img src="../img/logo.png" alt="" class="logo">
+            <h1>Página inicial</h1>
+        </div>
+        <div class="tarefas">
+            <h2>Lista de Tarefas</h2>
+            <div class="container-tarefas">
+                <a href="../pageshtml/tarefas.html"><p>Tarefas de Casa</p></a>
+                <a href="../pageshtml/criartarefa.html"><p>Tarefas da Escola</p></a>
+                <a href="../pageshtml/criarprojeto.html"><button class="addTarefa"> Adicionar Projeto</button></a>
+            </div>
+        </div>
+    </main> 
+    <footer>
+        <div class="barra-lateral">
+            <img src="../img/Person.png" alt="person">
+        </div>
+    </footer>
 </body>
 </html>

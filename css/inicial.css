@@ -3,30 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: #F1F1F1;
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 10fr 4fr 2fr;
-}   
-.image{
-    width: 40%;
-    height: 100vh;
     display: flex;
-    align-items: center;
-   justify-content: center;
-    
-}
-.logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    height: 100vh;
 }
-.logo img{
-    height: 200px;
-    width: 200px;
+
+.cabecalho{
+    padding-left: 40px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
+
+.cabecalho img{
+    height: 160px;
+    width: 160px;
+}
+
+/* .tarefas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.conatiner-tarefa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+} */
+
 .logo h1{
     padding-right: 950px;
     width: 1560px;
@@ -37,76 +48,99 @@ body{
     height: 70px;
     width: 70px;
     display: flex;
-   
 }
 h1{
     padding: 64px;
     font-size: 36px;
 }
-header{
-    padding: 18px;
-    display: grid;
-    justify-self: center;
-    
-}
 .tarefas{
     display: flex;
-    padding: 64px;
-    width: 1500px;
     flex-direction: column;
+    position: relative;
     outline: none;
     border: none;
-
-}
-.tarefas button{
-    padding: 8px;
-   
+    padding-top: 250px;
     
 }
-.tarefas h1{
-    display: flex;
-    padding: 12px;
+.tarefas a{
+    padding: 8px;
+    width: 500px;
+   
+
 }
+
+a .addTarefa{
+    width: 250px;   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tarefas h2{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
 .tarefas p{
-    padding: 24px;
+    padding: 18px;
     background-color: #C5C5C5;
     width: 100%;
     border-radius: 16px;
-    font-size: 18px;    
+    font-size: 18px;  
+    display: flex;
+    align-items: center;  
     text-decoration: none;
     box-shadow: none;
-}  
+} 
 .tarefas a{
     text-decoration: none;
     color: black;
 }     
 button{
-    width: 40%;
+    width: 20%;
     border-radius: 16px;
     cursor: pointer;
     border: none;
-}   
+}  
+ 
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
 input:-webkit-autofill:active{
     -webkit-box-shadow: 0 0 0 30px #ccc inset !important;
 }
-.addtarefa{
+
+.addTarefa{
     background-color: #FFDB1D;
     color: white;
     height: 50px;
     width: 200px;
-    display: grid;
-    text-align: center;
+}
+
+.addTarefa button{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* feito */
+.barra-lateral{
+    width: 10vw;
+    background-color: blue;
+    height: 100vh;
+    display: flex;
     align-items: center;
+    flex-direction: column;  
+}
+
+.addTarefa:hover{
+    transform: scale(1.1)
 
 }
-.logo .person:hover{
-    transform: scale(1.1);
-}
+
 @media screen and (max-width: 600px) {
     main {
         width: 100%;
     }
-}
+} 
