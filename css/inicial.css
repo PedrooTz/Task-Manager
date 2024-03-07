@@ -25,23 +25,11 @@ body{
     width: 160px;
 }
 
-/* .tarefas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.conatiner-tarefa{
-    display: flex;
-    align-items: center;
-    flex-direction: column;    
-} */
-
 .logo h1{
     padding-right: 950px;
     width: 1560px;
 }
+
 .logo .person{
     background-color: #ccc;
     border-radius: 50%;
@@ -49,31 +37,27 @@ body{
     width: 70px;
     display: flex;
 }
+
 h1{
     padding: 64px;
     font-size: 36px;
 }
+
 .tarefas{
     display: flex;
     flex-direction: column;
     position: relative;
     outline: none;
     border: none;
-    padding-top: 250px;
-    
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 180px;
+    gap: ;
 }
+
 .tarefas a{
     padding: 8px;
     width: 500px;
-   
-
-}
-
-a .addTarefa{
-    width: 250px;   
-    align-items: center;
-    display: flex;
-    justify-content: center;
 }
 
 .tarefas h2{
@@ -108,8 +92,7 @@ button{
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
-input:-webkit-autofill:active{
-    -webkit-box-shadow: 0 0 0 30px #ccc inset !important;
+input:-webkit-autofill:active{ -webkit-box-shadow: 0 0 0 30px #ccc inset !important;
 }
 
 .addTarefa{
@@ -131,7 +114,14 @@ input:-webkit-autofill:active{
     height: 100vh;
     display: flex;
     align-items: center;
-    flex-direction: column;  
+    flex-direction: column;
+    padding-top: 40px;  
+}
+
+.barra-lateral img{
+    width: 80px;
+    border-radius: 50%;
+    background-color: #FFDB1D;
 }
 
 .addTarefa:hover{
