@@ -55,11 +55,12 @@ h1{
 }
 .tarefas{
     display: flex;
+    margin-left: 130px;
     flex-direction: column;
     position: relative;
     outline: none;
     border: none;
-    padding-top: 250px;
+    padding-top: 100px;
     
 }
 .tarefas a{
@@ -93,13 +94,17 @@ a .addTarefa{
     align-items: center;  
     text-decoration: none;
     box-shadow: none;
+    justify-content: center;
 } 
 .tarefas a{
     text-decoration: none;
     color: black;
 }     
 button{
+    display: flex;
+    justify-content: center;
     width: 20%;
+    margin-left: 85px;
     border-radius: 16px;
     cursor: pointer;
     border: none;
@@ -126,12 +131,15 @@ input:-webkit-autofill:active{
 
 /* feito */
 .barra-lateral{
-    width: 10vw;
+    width: 40vw;
     background-color: blue;
     height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;  
+}
+.barra-lateral img{
+    padding-top: 200px;
 }
 
 .addTarefa:hover{
